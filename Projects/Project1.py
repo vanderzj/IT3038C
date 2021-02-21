@@ -1,11 +1,15 @@
-# This Python program allows users to play the game Snake.
-# In Snake, your goal is to collect fruit, represented by red dots. Each dot is worth 10 points.
+# This Python script allows users to play the game Snake.
+# In Snake, your goal is to collect fruit, represented by red dots. Each fruit is worth 10 points.
 # Each time you collect a fruit, your snake gets longer. You lose if you run into the walls or your own body.
+# Collecting fruit also increases the snake's movement speed by 10%, making it progressively harder.
 # To control the Snake, you can turn it to the left or right by pressing the corresponding arrow key to rotate it (i.e. if the snake is going right and you want it to go down, press the down key)
 # The Snake constantly moves forward, and you cannot move backwards.
+# The game goes until you run into any of the borders of the window or you run into any part of your own body.
+# To run the game, simply run the script.
 
 # This program was created using the tutorials made by TokyoEdTech on Youtube. 
-# You can find his channel at https://www.youtube.com/channel/UC2vm-0XX5RkWCXWwtBZGOXg and the playlist of Snake tutorials at https://www.youtube.com/playlist?list=PLlEgNdBJEO-n8k9SR49AshB9j7b5Iw7hZ
+# You can find his channel at https://www.youtube.com/channel/UC2vm-0XX5RkWCXWwtBZGOXg
+# You can find his playlist of Snake tutorials at https://www.youtube.com/playlist?list=PLlEgNdBJEO-n8k9SR49AshB9j7b5Iw7hZ
 
 import turtle
 import time
