@@ -20,11 +20,12 @@ hr = hr%24;
 
 var server = http.createServer(function(req, res) {
     if (req.url === "/" ) {
-        fs.readFile("./public/index.html", "UTF-8", function(err, body){
+        fs.readFile("public/index.html", "UTF-8", function(err, body){
             res.writeHead(200, {"Content-Type": "text/html"});
             res.end(body);
         });
     }
+
     else if(req.url.match("/sysinfo")) {
         myHostName=os.hostname();
         html=`
