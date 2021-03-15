@@ -14,6 +14,6 @@ Once you click the equals button, the equals button looks to the status to tell 
 Your result is then placed back into the display. You can use your result as the next number, or click clear to start over.
 
 To run the program, double click it from your File Explorer.
-You can also navigate to the directory it is stored in in PowerShell and enter "node .\Project2.py" to run it.
+You can also navigate to the directory it is stored in in PowerShell and enter "Python .\Project2.py" to run it.
 
 I used TKinter to create and place all of the objects (window, display, buttons) that pops up. 
