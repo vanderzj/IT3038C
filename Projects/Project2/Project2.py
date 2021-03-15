@@ -1,4 +1,4 @@
-# Easy Calculator w/ GUI by Zack Vanderpool
+# Simple Calculator w/ GUI by Zack Vanderpool
 # Based on the tutorials by John Elder for his Youtube Channel, Codemy.com
 # His channel can be found at https://www.youtube.com/channel/UCFB0dxMudkws1q8w5NJEAmw
 # I used videos 1 through 7 of the playlist "Python GUI's with TKinter," which can be found at https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV
